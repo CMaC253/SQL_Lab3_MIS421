@@ -1,0 +1,67 @@
+
+--1 Display all data in product table
+select * from Products
+
+--2 Display all data without using * 
+select CategoryID, CategoryName, Description, Picture from Categories
+
+--3 Display Description and CategoryID from Categories: Start with Description
+select Description, CategoryID from Categories
+
+--4 Unquie Product IDs from Order Details*/
+select  ProductID  from OrderDetails
+
+--5 Display all products having a UnitsInStock < 20 */
+
+select * from Products where UnitsInStock < 20
+
+--6 Display the CategoryName, ProductName for products having UnitsInStock = 0 && UnitsOnOrder > 10 */
+
+select CategoryName,ProductName from Products where UnitsInStock = 0 AND UnitsOnOrder > 10
+
+--7	Display the CatName, ProdID, ProdNam for all PRODUCTS where UnitsInStock = 0 OR UnitsOnOrder > UnitsInStock //Sort in Descending//	 */
+
+select CategoryName, ProductID, ProductName from Products  where UnitsInStock = 0 OR UnitsOnOrder > UnitsInStock ORDER BY CategoryName desc 
+
+--8 Display CatName, ProdID, ProdID, ProdName, UnitsInStock for ALL PRODUCTS having UnitsInStock > 1 and < 10 use Between	*/
+select CategoryName, ProductID, ProductName, UnitsInStock from Products where UnitsInStock Between 1 And 10
+
+--9 Show unique CategoryName & ProductName for all products where Product name starts with 'Ch' */
+select CategoryName, ProductName from Products where ProductName Like '%ch%'
+
+--10 Show unique catName, and ProdName for all PRODUCTs having a ProductName that includes tofu	*/
+select CategoryName, ProductName from Products where ProductName Like '%Tofu%'
+
+--11 Show unique catName, and ProdName for all PRODUCTs having a ProductName that includes tofu	*/
+select CategoryName, ProductName from Products where ProductName Like '____s%'
+
+--12 Combine CatName and ProdName as one column Names Category_Product; CatName should be spearated from ProdName 
+select distinct	rtrim (CategoryName) + '-' + rtrim (ProductName) as Category_Product from Products
+
+--13 Use SQL built-in functions: SUM, AVG, MAX, MIN on UnitsInStock
+select SUM(UnitsInStock) AS UnitsInStockSum,
+	   AVG(UnitsInStock) AS UnitsInStockAvg,
+	   MAX(UnitsInStock) AS UnitsInStockMax,
+	   MIN(UnitsInStock) AS UnitsInStockMin
+from Products
+
+--14 Difference between the SQL built-in functions COUNT and SUM
+	--The Difference is COUNT is counting the number of values in a column
+	--Sum is summing the range of values in the column
+	
+--15 Display OrderDetails table the ProductID and the number of times a product has been ordered.
+	-- Use count in select and groupby. Name this NumOfTimes ordered
+select ProductID, COUNT(*) AS NumOfTimesOrdered 
+from OrderDetails
+group by ProductID
+
+--16 Display from Products, CatId, CatName, (SUM) of Units in TotalProductsOnHand
+--Only include products that have 100 or less (WHERE) only show categories
+--having more than 200 total products in stock
+select CategoryID,CategoryName, SUM(UnitsInStock) AS TotalProductsOnHand
+from Products
+where UnitsInStock <= 100
+group by CategoryID, CategoryName
+having SUM(UnitsInStock) > 200
+
+--17 Was where or having applied first?

@@ -1,0 +1,26 @@
+ItemDescription	CompanyName	PurchaseDate	ItemCost	ItemPrice	VendorID
+Antique Desk	European Specialties	11/7/2012	1800	3000	2
+Antique Desk Chair	Andrew Lee	11/10/2012	300	500	4
+Dining Table Linens	Linens and Things	11/14/2012	600	1000	1
+Candles	Linens and Things	11/14/2012	30	50	1
+Candles	Linens and Things	11/14/2012	27	45	1
+Desk Lamp	Lamps and Lighting	11/14/2012	150	250	3
+Dining Table Linens	Linens and Things	11/14/2012	450	750	1
+Book Shelf	Denise Harrison	11/21/2012	150	250	5
+Antique Chair	New York Brokerage	11/21/2012	750	1250	6
+Antique Chair	New York Brokerage	11/21/2012	1050	1750	6
+Antique Candle Holder	European Specialties	11/28/2012	210	350	2
+Antique Desk	European Specialties	1/5/2013	1920	3200	2
+Antique Desk	European Specialties	1/5/2013	2100	3500	2
+Antique Desk Chair	Specialty Antiques	1/6/2013	285	475	9
+Antique Desk Chair	Specialty Antiques	1/6/2013	339	565	9
+Desk Lamp	General Antiques	1/6/2013	150	250	10
+Desk Lamp	General Antiques	1/6/2013	150	250	10
+Desk Lamp	Lamps and Lighting	1/6/2013	144	240	3
+Antique Dining Table	Denesha Walsh	1/10/2013	3000	5000	7
+Antique Sideboard	Chris Bancroft	1/11/2013	2700	4500	8
+Dining Table Chairs	Specialty Antiques	1/11/2013	5100	8500	9
+Dining Table Linens	Linens and Things	1/12/2013	450	750	1
+Dining Table Linens	Linens and Things	1/12/2013	480	800	1
+Candles	Linens and Things	1/17/2013	30	50	1
+Candles	Linens and Things	1/17/2013	36	60	1

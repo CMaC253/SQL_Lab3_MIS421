@@ -1,0 +1,11 @@
+LastName	FirstName	Address	City	State	ZIP	Phone	Email
+Shire                    	Robert                   	6225 Evanston Ave N                	Seattle                            	WA	98103	206-524-2433	Robert.Shire@somewhere.com
+Goodyear                 	Katherine                	7335 11th Ave NE                   	Seattle                            	WA	98105	206-524-3544	Katherine.Goodyear@somewhere.com
+Bancroft                 	Chris                    	12605 NE 6th Street                	Bellevue                           	WA	98005	425-635-9788	Chris.Bancroft@somewhere.com
+Griffith                 	John                     	335 Aloha Street                   	Seattle                            	WA	98109	206-524-4655	John.Griffith@somewhere.com
+Tierney                  	Doris                    	14510 NE 4th Street                	Bellevue                           	WA	98005	425-635-8677	Doris.Tierney@somewhere.com
+Anderson                 	Donna                    	1410 Hillcrest Parkway             	Mt. Vernon                         	WA	98273	360-538-7566	Donna.Anderson@elsewhere.com
+Svane                    	Jack                     	3211 42nd Street                   	Seattle                            	WA	98115	206-524-5766	Jack.Svane@somewhere.com
+Walsh                    	Denesha                  	6712 24th Avenue NE                	Redmond                            	WA	98053	425-635-7566	Denesha.Walsh@somewhere.com
+Enquist                  	Craig                    	534 15th Street                    	Bellingham                         	WA	98225	360-538-6455	Craig.Enquist@elsewhere.com
+Anderson                 	Rose                     	6823 17th Ave NE                   	Seattle                            	WA	98105	206-524-6877	Rose.Anderson@elsewhere.com
